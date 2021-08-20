@@ -1,0 +1,127 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="9:sabM~Q54@9~8VG69Lo">text_list</variable><variable id="aj,L!O8gZ*.gp~R4,*a7">myImage</variable></variables><block type="music_set_built_in_speaker_enable" id="l#w^tqYxq1$aF@bMtf;g" disabled="true" x="-233" y="-538"><value name="enabled"><shadow type="toggleOnOff" id="f*rg{AP_el`Ko{{(HauB" disabled="true"><field name="on">true</field></shadow></value></block><block type="pxt-on-start" id="}_Ri/BI52HESu;Qko#2)" x="-431" y="-514"><statement name="HANDLER"><block type="device_show_leds" id="g,.4iI/)T_;$;~}X6Q[v"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="5oHY*g/GKBkk2yXrEDaT"><value name="micros"><shadow type="math_number_minmax" id=";.{*=FAC`LM(:Eq_{vwP"><mutation min="0" max="6000" label="Number" precision="0"/><field name="SLIDER">1000500</field></shadow></value><next><block type="device_show_leds" id="2f,r8%CSU5x-$!^UshtP"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Q!qKH-:$3+hJrYuZ=)IS"><field name="LEDS">`
+        . . # # # 
+        . . # # # 
+        . . # # # 
+        . . # # # 
+        . . # # #
+        `</field><next><block type="device_show_leds" id="uiA308W)}E)Lc`z){][P"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # # # . .
+        `</field><next><block type="device_show_leds" id="u(J!eIZ-B|lPE~V{LTY-"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Ozz:%8Y=7%#0.1}*:U0c" x="-178" y="-319"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="B:-c$nO4]_^ZjC=6qls!"><field name="VAR" id="9:sabM~Q54@9~8VG69Lo">text_list</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_create_with" id=".u8r.zMLZ+|T=Tj8TzXd"><mutation items="3" horizontalafter="3"/><value name="ADD0"><shadow type="text" id="Y:}^di/32FD1Jss#p!vT"><field name="TEXT">geese have teeth on their tongues</field></shadow></value><value name="ADD1"><shadow type="text" id="OG98HJ-_M[j0(TN4~vDV"><field name="TEXT">Babies talk to their parents while in the egg</field></shadow></value><value name="ADD2"><shadow type="text" id="(Y/=gxF([:BSE:/RF(2{"><field name="TEXT">The bills of geese are very sensitive</field></shadow></value></block></value><next><block type="playMelody" id=",WxnD@V/Yd=k:kk.85hX"><value name="melody"><shadow type="melody_editor" id="Qz8KM8g-Yi,%H7us339:"><field name="melody">"C5 G B A F A C5 B "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="N(*S.Zw#peKnVuDGE3$!"><mutation min="40" max="500" label="Number" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_print_message" id="YNL?{u]qYP+f={^JR2Gw"><value name="text"><shadow type="text" id="?)m%`O=*HX!e+C21UZEI"><field name="TEXT">Fun Fact..</field></shadow></value><next><block type="device_print_message" id="crCfOK1{uH}LY7Hk;(:v"><value name="text"><shadow type="text"><field name="TEXT"/></shadow><block type="array_pickRandom" id="s-?lKzCm#kQu!fE*`m0V"><value name="list"><block type="variables_get" id="*eZpAtIad|`d=TwvZ^ZJ"><field name="VAR" id="9:sabM~Q54@9~8VG69Lo">text_list</field></block></value></block></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="Mf.P+e,_],d|mwT@tWfF" x="282" y="-19"><field name="NAME">Button.AB</field></block><block type="device_gesture_event" id="@yw]Y~,w,n9jcm^|rDpc" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id=")zB]_%%`rp_u-)?I2]$T"><field name="LEDS">`
+        # # # . . 
+        . . # # # 
+        . . . # # 
+        . # # . . 
+        . # # . .
+        `</field><next><block type="device_show_leds" id="=*-38L.ZeX4@y/xek{1j"><field name="LEDS">`
+        # # # . . 
+        . . # # # 
+        . . . # # 
+        . # # . . 
+        . # # . .
+        `</field><next><block type="device_show_leds" id="bC!`LfUk{.d42-rd)v2A"><field name="LEDS">`
+        # # # . . 
+        . . # # # 
+        . . . # # 
+        . # # . . 
+        . # # . .
+        `</field><next><block type="device_show_leds" id="w]ZUQ[TFpCbpeTA^?*tj"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_show_leds" id="PxPFd[)rBr1P~s_tB/g;" disabled="true" x="331" y="152"><field name="LEDS">`
+        . . # # # 
+        # # # . . 
+        # # . . . 
+        . # # # . 
+        . . # # #
+        `</field><next><block type="device_show_leds" id="xhi0)aiQ_:~3lHN+NW1b" disabled="true"><field name="LEDS">`
+        . . # # # 
+        # # # . . 
+        # # . . . 
+        . . # # . 
+        . . # # .
+        `</field></block></next></block><block type="device_show_leds" id="@g}$9r:/P`!z$?D@Ax,D" disabled="true" x="377" y="470"><field name="LEDS">`
+        # # # . . 
+        . . # # . 
+        . . . . . 
+        . # # . . 
+        . # # . .
+        `</field></block><block type="device_button_event" id="uKhVY(5I!-fDgI+/dB!=" x="944" y="538"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="+IJ6P,07L5-1SfjkRpdU"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="WDFrRY-_;7?U.^d=|oep"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="controls_repeat_ext" id="C.=5Y$NBMA?}*x7N]__6"><value name="TIMES"><shadow type="math_whole_number" id="Yc0y1~E2IILBSkaE=6[Q"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="playMelody" id="L7opEiD.ZHkDnIgtu?]y"><value name="melody"><shadow type="melody_editor" id="s54O`8r:bAP*WX9t/jrq"><field name="melody">"F - C5 - A B A G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="G!SF})Wc(z[rT@nOte|x"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="3-6/}Mc0zGu%7urT!?%="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement><next><block type="playMelody" id="-V5(/%C$yR1!L=5oupEM"><value name="melody"><shadow type="melody_editor" id="jU/thU(ac6k8F`6nUDm8"><field name="melody">"F - C5 - A B A G "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="8?euc=}aTVT[x*9W:,6I"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">70</field></shadow></value><next><block type="device_show_leds" id="/S?rSfRn?8C)fOEMwe|]"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="*tE6iYyjDc^Kt=`}zsjS"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="oy$.@gv/XwiIfFIPFv+8"><value name="micros"><shadow type="math_number_minmax" id="PBNm{n8r|Q1Qdq?+*4A4"><mutation min="0" max="6000" label="Number" precision="0"/><field name="SLIDER">1000500</field></shadow></value><next><block type="device_show_leds" id="iBZ8t-H:w:98GmuFuO^,"><field name="LEDS">`
+        . . . . . 
+        # # # # # 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="s^Y(.fP_auU{`T(vn(%E"><value name="micros"><shadow type="math_number_minmax" id="1MXXXzb)+JTqkLN50T1d"><mutation min="0" max="6000" label="Number" precision="0"/><field name="SLIDER">1000500</field></shadow></value><next><block type="device_show_leds" id="Oec+z~9c*ZY2l2-;_=u%"><field name="LEDS">`
+        # # # # # 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field><next><block type="control_wait_us" id="q9gw5x!Xc?QcLBJE]L*k"><value name="micros"><shadow type="math_number_minmax" id="|O8`8O;So_@t$;]pFtQe"><mutation min="0" max="6000" label="Number" precision="0"/><field name="SLIDER">1000500</field></shadow></value><next><block type="device_show_leds" id="]_N7]G=~c0zy*7:y%@ri"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_show_leds" id=";JD!z}BXStloFA`?Qh#g" disabled="true" x="657" y="643"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        . . . . .
+        `</field></block><block type="control_wait_us" id="rV,QJNT)/)F[d(H`Wu#y" disabled="true" x="1369" y="633"><value name="micros"><shadow type="math_number_minmax" id=":@irQwn#cVd8ew!%TcbI" disabled="true"><mutation min="0" max="6000" label="Micros" precision="0"/><field name="SLIDER">2500000</field></shadow></value></block><block type="device_while" id="*j6|CJZ*BXp_B9+rI@1#" disabled="true" x="1888" y="909"><value name="COND"><shadow type="logic_boolean" id="(0Sy$FT-FoNX[!Nq9OW(" disabled="true"><field name="BOOL">FALSE</field></shadow></value></block><block type="logic_operation" id="Pwn)yiXdeH)KBP[M:w8i" disabled="true" x="1389" y="1145"><field name="OP">AND</field></block></xml>
